@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" width="900" height="1200">
+  <defs>
+    <linearGradient id="stairLight" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#e4e4e7"/>
+      <stop offset="100%" stop-color="#71717a"/>
+    </linearGradient>
+    <linearGradient id="stairDark" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#27272a"/>
+      <stop offset="100%" stop-color="#09090b"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="1200" fill="#121214"/>
+  <!-- Brutalist Spiral / Geometric Concrete Stairwell Void -->
+  <polygon points="0,0 900,0 720,420 180,420" fill="url(#stairLight)"/>
+  <polygon points="0,0 180,420 180,980 0,1200" fill="#3f3f46"/>
+  <polygon points="900,0 720,420 720,980 900,1200" fill="url(#stairDark)"/>
+  <rect x="180" y="420" width="540" height="560" fill="#09090b"/>
+  <!-- Cantilevered Concrete Steps -->
+  <g fill="#d4d4d8">
+    <rect x="180" y="460" width="340" height="28"/>
+    <rect x="210" y="520" width="340" height="28" fill="#bebec4"/>
+    <rect x="240" y="580" width="340" height="28" fill="#a1a1aa"/>
+    <rect x="270" y="640" width="340" height="28" fill="#85858f"/>
+    <rect x="300" y="700" width="340" height="28" fill="#6b6b75"/>
+    <rect x="330" y="760" width="340" height="28" fill="#52525b"/>
+    <rect x="360" y="820" width="340" height="28" fill="#3f3f46"/>
+  </g>
+  <!-- Skylight Shaft Beam -->
+  <polygon points="260,0 640,0 520,980 320,980" fill="#ffffff" opacity="0.09"/>
+</svg>

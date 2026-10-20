@@ -1,0 +1,6 @@
+{
+  "name": "Soren Lindqvist — Fine Art & Architectural Photography",
+  "description": "Minimalist photography portfolio, visual archive, and field journal of Nordic architectural and landscape photographer Soren Lindqvist.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

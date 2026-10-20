@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" width="900" height="1200">
+  <defs>
+    <linearGradient id="rainBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1b221e"/>
+      <stop offset="100%" stop-color="#0d110f"/>
+    </linearGradient>
+    <linearGradient id="shojiGlow" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e8dcc4"/>
+      <stop offset="100%" stop-color="#b8a47e"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="1200" fill="url(#rainBg)"/>
+  <!-- Overhanging Cedar Eaves -->
+  <polygon points="0,120 900,40 900,220 0,290" fill="#120e0a"/>
+  <polygon points="0,260 900,190 900,245 0,315" fill="#2a2017"/>
+  <!-- Shoji & Glass Sanctuary Frame -->
+  <rect x="130" y="315" width="640" height="580" fill="#17130f" stroke="#3b2e22" stroke-width="8"/>
+  <rect x="170" y="355" width="260" height="500" fill="url(#shojiGlow)" opacity="0.88"/>
+  <rect x="460" y="355" width="270" height="500" fill="url(#shojiGlow)" opacity="0.62"/>
+  <!-- Cedar Lattice Grid -->
+  <g stroke="#241c14" stroke-width="6">
+    <line x1="300" y1="355" x2="300" y2="855"/>
+    <line x1="595" y1="355" x2="595" y2="855"/>
+    <line x1="170" y1="480" x2="730" y2="480"/>
+    <line x1="170" y1="605" x2="730" y2="605"/>
+    <line x1="170" y1="730" x2="730" y2="730"/>
+  </g>
+  <!-- Wet Stone Courtyard Reflection -->
+  <rect x="0" y="895" width="900" height="305" fill="#0a0d0b"/>
+  <rect x="170" y="910" width="560" height="220" fill="url(#shojiGlow)" opacity="0.16"/>
+  <!-- Subtle Rain Lines -->
+  <g stroke="#a3b5aa" stroke-opacity="0.18" stroke-width="1">
+    <line x1="120" y1="80" x2="90" y2="1120"/>
+    <line x1="280" y1="40" x2="250" y2="1080"/>
+    <line x1="490" y1="100" x2="460" y2="1140"/>
+    <line x1="680" y1="60" x2="650" y2="1100"/>
+    <line x1="810" y1="120" x2="780" y2="1160"/>
+  </g>
+</svg>

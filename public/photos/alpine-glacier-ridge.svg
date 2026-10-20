@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900">
+  <defs>
+    <linearGradient id="arcticSky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="60%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#334155"/>
+    </linearGradient>
+    <linearGradient id="snowRidge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#f8fafc"/>
+      <stop offset="50%" stop-color="#cbd5e1"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="900" fill="url(#arcticSky)"/>
+  <!-- High-Latitude Glacier Ridge -->
+  <polygon points="0,780 480,220 620,380 890,160 1200,560 1200,900 0,900" fill="#0f172a"/>
+  <!-- Lit Snow Face -->
+  <polygon points="0,780 480,220 530,680 0,900" fill="url(#snowRidge)"/>
+  <polygon points="620,380 890,160 940,740 580,740" fill="url(#snowRidge)"/>
+  <!-- Shadowed East Face -->
+  <polygon points="480,220 620,380 580,740 530,680" fill="#1e293b"/>
+  <polygon points="890,160 1200,560 1200,900 940,740" fill="#090d16"/>
+  <!-- Atmospheric Wind Drift -->
+  <rect y="640" width="1200" height="260" fill="#090d16" opacity="0.65"/>
+</svg>

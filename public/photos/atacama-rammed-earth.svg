@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900">
+  <defs>
+    <linearGradient id="desertSky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1f1916"/>
+      <stop offset="100%" stop-color="#4a372b"/>
+    </linearGradient>
+    <linearGradient id="ochreSun" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#d89b56"/>
+      <stop offset="100%" stop-color="#9c622c"/>
+    </linearGradient>
+    <linearGradient id="ochreShadow" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#382518"/>
+      <stop offset="100%" stop-color="#1a110b"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="900" fill="url(#desertSky)"/>
+  <!-- Geometric Rammed Earth Monolith Walls -->
+  <polygon points="80,720 80,210 580,140 580,720" fill="url(#ochreSun)"/>
+  <polygon points="580,140 840,260 840,720 580,720" fill="url(#ochreShadow)"/>
+  <polygon points="420,760 420,330 980,240 980,760" fill="url(#ochreSun)"/>
+  <polygon points="980,240 1140,320 1140,760 980,760" fill="url(#ochreShadow)"/>
+  <!-- Diagonal Shadow Across Second Wall -->
+  <polygon points="420,330 740,280 580,760 420,760" fill="#291a10" opacity="0.88"/>
+  <!-- Desert Floor -->
+  <polygon points="0,720 1200,720 1200,900 0,900" fill="#23170f"/>
+  <polygon points="80,720 580,720 980,760 1200,760 1200,900 0,900" fill="#140d08"/>
+</svg>
